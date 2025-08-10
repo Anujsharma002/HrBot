@@ -8,7 +8,6 @@ HrBot is an intelligent chatbot designed to streamline Human Resources (HR) oper
 - **Backend**: FastAPI (served using `uv`)
 - LangChain:RAG
 - **Ollama:** Mistral
-- **Serper.dev Google Search Api**
 - **Tools**:
 
   - `watchfiles` (auto-reload backend on changes)
