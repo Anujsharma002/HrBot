@@ -72,6 +72,8 @@ http://localhost:5173
 
 ### 3. Run Both Together (Frontend + Backend)
 
+Install Watchfiles globally it will helps you a lot
+
 In the `FrontEnd/package.json`, two scripts are defined:
 
 ```json
