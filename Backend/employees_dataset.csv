@@ -1,0 +1,31 @@
+ID,Name,Skills,Experience Years,Projects,Availability
+1,Alice Johnson,Java; CSS; React; Vue.js; Kubernetes,3,E-commerce API,available
+2,Bob Smith,Rust; Machine Learning; JavaScript,7,E-commerce API; Payment Gateway Integration; Medical Diagnosis Platform,unavailable
+3,Clara Davis,Go; Kubernetes; CSS; HTML; JavaScript,3,Drone Navigation,unavailable
+4,David Brown,Go; Angular; C++,4,Landing Page; Data Analytics Dashboard; E-commerce Platform,available
+5,Eva Wilson,Go; CSS; Spring Boot; Python; JavaScript,2,Healthcare Dashboard; Weather Prediction System,available
+6,Frank Miller,Java; CSS; HTML; Spring Boot,1,Medical Diagnosis Platform; E-commerce API; Drone Navigation,available
+7,Grace Lee,SQL; C++; Angular; Laravel; TensorFlow,6,Learning Management System,available
+8,Henry Thompson,Python; SQL,10,Inventory Management; Banking System,available
+9,Isabella Moore,ROS; Laravel; TensorFlow; Spring Boot,5,Portfolio Website; AI Chatbot,available
+10,Jack White,CSS; C++; NoSQL; TensorFlow,1,CRM System,available
+11,Karen Scott,PHP; PyTorch,6,Weather Prediction System,unavailable
+12,Liam Harris,JavaScript; PyTorch,2,Landing Page; Medical Diagnosis Platform; Data Analytics Dashboard,unavailable
+13,Mia Lewis,React; AWS; SQL; Machine Learning; Vue.js,1,Inventory Management; Payment Gateway Integration,available
+14,Noah Walker,Spring Boot; Rust; Machine Learning,9,Payment Gateway Integration; Learning Management System,unavailable
+15,Olivia Hall,Angular; C++; Kubernetes; SQL,7,Landing Page; Medical Diagnosis Platform,unavailable
+16,Paul Young,AWS; HTML; JavaScript; Robotics; C++,8,CRM System,unavailable
+17,Quinn King,Java; Machine Learning; Node.js; Go,7,Autonomous Vehicle,available
+18,Rachel Green,Robotics; Laravel; Angular,2,Weather Prediction System; AI Chatbot,unavailable
+19,Samuel Turner,NoSQL; PyTorch,7,Weather Prediction System,unavailable
+20,Tina Adams,Node.js; TensorFlow,4,Weather Prediction System,available
+21,Umar Reed,Laravel; Kubernetes; Vue.js; Docker,6,Weather Prediction System,available
+22,Victoria Hughes,AWS; Rust,3,E-commerce API; Banking System,available
+23,William Baker,Spring Boot; AWS; PyTorch; JavaScript,1,IoT Monitoring; Autonomous Vehicle,available
+24,Xavier Price,Spring Boot; ROS,10,CRM System,unavailable
+25,Yara Flores,Angular; Laravel,8,E-commerce API; IoT Monitoring; Weather Prediction System,available
+26,Zachary Cox,Vue.js; SQL; Laravel; Angular; Java,1,Drone Navigation; Real-time Chat App; Medical Diagnosis Platform,available
+27,Amelia Rivera,C++; React; Spring Boot; CSS; Java,6,IoT Monitoring; CRM System; Real-time Chat App,available
+28,Benjamin Morris,Python; Spring Boot; PyTorch,1,Autonomous Vehicle; Inventory Management,unavailable
+29,Charlotte Bell,PyTorch; Robotics; PHP; Rust,3,Autonomous Vehicle,available
+30,Daniel Foster,Go; Vue.js; ROS; HTML; CSS,9,Landing Page; Data Analytics Dashboard; AI Chatbot,unavailable

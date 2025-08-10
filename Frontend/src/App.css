@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.Main-container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.Main-container canvas {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.overlay {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* ✅ fills full screen */
+  width: 100%;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  padding: 20px;
+  flex-shrink: 0; /* stays fixed at top */
+  align-items: center;
+  justify-content: space-around;
+  
+  gap: 10%;
+  width: 100%;
+
+}
+
+.content-area {
+  flex: 1; /* ✅ takes remaining height */
+  overflow-y: auto; /* ✅ allows scroll if content is large */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
