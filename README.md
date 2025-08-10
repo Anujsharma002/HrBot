@@ -1,14 +1,12 @@
-# WebReinvent Rank Tracker (Assignment)
+# HrBot
 
-This is a full-stack AI-powered application that tracks WebReinvent’s Google search rankings for specific keywords using an agentic system.
-
----
+HrBot is an intelligent chatbot designed to streamline Human Resources (HR) operations by automating responses, managing employee queries, and assisting with recruitment tasks.
 
 ## 📦 Tech Stack
 
 - **Frontend**: React 19 (Vite)
 - **Backend**: FastAPI (served using `uv`)
-- **crewai:** framework to automate multiagent workflows
+- LangChain:RAG
 - **Ollama:** Mistral
 - **Serper.dev Google Search Api**
 - **Tools**:
@@ -97,14 +95,6 @@ npm run dev
 
 ```
 
-### **4. Set up Environment Variables**
-
-Create a `.env` file in the root directory:
-
-```env
-SERPER_API_KEY=your_serper_api_key
-```
-
 ## 🧩 Contributing
 
 We welcome contributions that help improve this project!
@@ -142,8 +132,7 @@ We welcome contributions that help improve this project!
 ## 🙌 Acknowledgements
 
 - [FastAPI](https://fastapi.tiangolo.com/)
-- [CrewAI](https://docs.crewai.io/)
-- [Serper.dev](https://serper.dev/) for Google Search API
+- [LangChain](https://python.langchain.com/)
 - Mistral model via Ollama (optional if local LLM inference is integrated)
 
 ### 📌 Contribution Guidelines
