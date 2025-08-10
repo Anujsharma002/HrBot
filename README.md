@@ -47,7 +47,8 @@ cd Backend
 python -m venv .venv
 .venv\Scripts\activate     # On Mac/Linux: source .venv/bin/activate
 uv pip install -r requirements.txt
-uv run backend_api.py      # OR use watchfiles for hot-reload
+cd RagUtils
+uv run main.py      # OR use watchfiles for hot-reload
 ```
 
 Backend will be available at:
@@ -75,7 +76,7 @@ http://localhost:5173
 In the `FrontEnd/package.json`, two scripts are defined:
 
 ```json
-"backend": "cd ../Backend && watchfiles \"cmd /c set PYTHONIOENCODING=utf-8 && uv run backend_api.py\" .",
+"backend": "cd ../Backend/RagUtils && watchfiles \"cmd /c set PYTHONIOENCODING=utf-8 && uv run main.py\" .",
 "dev": "concurrently \"npm run vite\" \"npm run backend\""
 ```
 
@@ -84,7 +85,7 @@ or
 In the `FrontEnd/package.json`, two scripts are defined:
 
 ```json
-"backend": "cd ../Backend && python -m watchfiles \"cmd /c set PYTHONIOENCODING=utf-8 && uv run backend_api.py\" ."
+"backend": "cd ../Backend/RagUtils && python -m watchfiles \"cmd /c set PYTHONIOENCODING=utf-8 && uv run main.py\" ."
 "dev": "concurrently \"npm run vite\" \"npm run backend\""
 ```
 
@@ -105,8 +106,8 @@ We welcome contributions that help improve this project!
 2. **Clone your Fork**
 
    ```bash
-   git clone https://github.com/your-username/webreinvent.git
-   cd webreinvent
+   git clone https://github.com/your-username/HrBot.git
+   cd HrBot
    ```
 3. **Create a Feature Branch**
 
