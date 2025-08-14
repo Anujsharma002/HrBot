@@ -36,5 +36,10 @@ def save():
 #     print(r.page_content)
 # print(results)
 # embeder()
+folder_path = "D:\HrBot\HrBot\Backend\RagUtils\models"
+if not os.path.isdir(folder_path):
+#    print('hi')
+   setModelHugFaces()     
+   save()
+
 # save()
-# setModelHugFaces()
