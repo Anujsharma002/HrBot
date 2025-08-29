@@ -25,10 +25,6 @@ HrBot is an intelligent chatbot designed to streamline Human Resources (HR) oper
     docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 ```
 
-```
-
-```
-
 #### b.Go to Cmd or powershell and run after pulling image
 
 ```bash
