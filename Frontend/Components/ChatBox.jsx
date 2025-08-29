@@ -59,6 +59,13 @@ const ChatBox = () => {
             {msg.text}
           </div>
         ))}
+          {loading && (
+    <div className="bot-message typing-indicator">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  )}
         <div ref={messagesEndRef} />
       </div>
 

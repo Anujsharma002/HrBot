@@ -22,7 +22,11 @@ HrBot is an intelligent chatbot designed to streamline Human Resources (HR) oper
 #### a.Pull Ollama Docker Image
 
 ```bash
-    docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+    docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+```
+
+```
+
 ```
 
 #### b.Go to Cmd or powershell and run after pulling image
@@ -34,7 +38,7 @@ HrBot is an intelligent chatbot designed to streamline Human Resources (HR) oper
 #### c.Try to run mistral
 
 ```bash
-    ollama run mistral
+    ollama pull mistral:7b-instruct-q4_K_M
 ```
 
 if it will not work download manually
